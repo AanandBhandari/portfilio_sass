@@ -31,3 +31,20 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+(function($) {
+  $('a.thumbnail').magnificPopup({
+    type: 'image',
+    closeOnContentClick: true,
+    closeBtnInside: false,
+    gallery: { enabled: true },
+    fixedContentPos: true,
+    mainClass: 'mfp-no-margins mfp-with-zoom',
+    image: {
+      verticalFit: true
+    },
+    zoom: {
+      enabled: true,
+      duration: 300
+    }
+  });
+})(jQuery);

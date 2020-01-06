@@ -1,6 +1,7 @@
 @import 'config';
 @import 'menu';
 
+
 * {
   box-sizing: border-box;
 }
@@ -28,8 +29,9 @@ h3 {
 
   &.sm-heading {
     margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
-    background: rgba(lighten($primary-color, 2), 0.5);
+    // margin-right: 50%;
+    padding: 0.2rem 0rem;
+    // background: rgba(lighten($primary-color, 2), 0.5);
   }
 }
 
@@ -49,8 +51,8 @@ header {
 }
 
 main {
-  padding: 4rem;
-  // height: 100%;
+  padding: 2rem 4rem 4rem 4rem;
+
   min-height: calc(100vh - 60px);
 
   .icons {
@@ -92,6 +94,12 @@ main {
   .bio {
     grid-area: bio;
     font-size: 1.5rem;
+    a{
+      color: $secondary-color;
+      &:hover {
+        color: black;
+      }
+    }
   }
 
   .job-1 {
@@ -188,5 +196,6 @@ main {
   color: set-text-color($primary-color);
   height: 60px;
 }
+@import 'art';
 
 @import 'mobile';
