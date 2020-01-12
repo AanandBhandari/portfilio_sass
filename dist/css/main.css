@@ -141,6 +141,13 @@ header {
 .text-secondary {
   color: #40ec14; }
 
+#particles-js {
+  display: flex;
+  justify-content: center; }
+
+#hide-particle {
+  position: absolute; }
+
 main {
   padding: 2rem 4rem 4rem 4rem;
   min-height: calc(100vh - 60px); }
@@ -289,11 +296,10 @@ main {
 body {
   background: linear-gradient(328deg, #444, #464646);
   background-size: 600% 600%;
-  font-family: 'Overlock', cursive;
+  font-family: Comic Sans MS, Comic Sans, cursive;
   font-size: 100%; }
 
 h1 {
-  font-family: 'Comfortaa', cursive;
   color: #fff;
   text-shadow: 0 3px 10px #000000; }
 

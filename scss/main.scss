@@ -50,9 +50,18 @@ header {
   color: $secondary-color;
 }
 
+#particles-js {
+  display: flex;
+  justify-content: center;
+}
+// particles
+#hide-particle {
+  position: absolute;
+  
+}
 main {
   padding: 2rem 4rem 4rem 4rem;
-
+  // position: absolute;
   min-height: calc(100vh - 60px);
 
   .icons {
